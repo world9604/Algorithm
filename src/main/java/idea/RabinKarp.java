@@ -37,6 +37,8 @@ class Soloution {
             }
 
             if (parentHash == patternHash) {
+                // 해시 값이 같아도 문자열이 다를 수 있기 때문에
+                // 다시 한번 문자열이 맞는지 검사 한다.
                 boolean finded = true;
                 for (int j = 0; j < patternLen; j++) {
                     if (parent.charAt(i + j) != pattern.charAt(j)) {

@@ -7,11 +7,11 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 public class BOJ1305Test {
-    private Solution solution;
+    private SplitConquester solution;
 
     @Before
     public void setUp() throws Exception {
-        solution = new Solution();
+        solution = new SplitConquester();
     }
 
     @Test
