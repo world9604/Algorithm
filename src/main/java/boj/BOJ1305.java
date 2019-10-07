@@ -16,27 +16,27 @@ public class BOJ1305 {
         int result = new Solution().solve(length, string);
         System.out.printf("%d", result);
     }
-}
 
-class Solution {
-    int solve(int length, String string) {
-        int[] table = getKmpTable(length, string.toCharArray());
+    static class Solution {
+        int solve(int length, String string) {
+            int[] table = getKmpTable(length, string.toCharArray());
 
-        // 전체 전광판 길이 - 최대일치 길이 = 최소 길이의 원래 광고 문구
-        return length - table[length - 1];
-    }
-
-    private int[] getKmpTable(int length, char[] strings) {
-        int k = 0;
-        int[] result = new int[length];
-
-        for (int i = 1; i < length; i++) {
-            while (k > 0 && strings[i] != strings[k])
-                k = result[k - 1];
-            if (strings[k] == strings[i])
-                result[i] = ++k;
+            // 전체 전광판 길이 - 최대일치 길이 = 최소 길이의 원래 광고 문구
+            return length - table[length - 1];
         }
 
-        return result;
+        private int[] getKmpTable(int length, char[] strings) {
+            int k = 0;
+            int[] result = new int[length];
+
+            for (int i = 1; i < length; i++) {
+                while (k > 0 && strings[i] != strings[k])
+                    k = result[k - 1];
+                if (strings[k] == strings[i])
+                    result[i] = ++k;
+            }
+
+            return result;
+        }
     }
 }

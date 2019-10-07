@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class SCC {
     /**
-     * SCC(Strongly Connected Component) °­ÇÑ °áÇÕ ¿ä¼Ò
+     * SCC(Strongly Connected Component) ê°•í•œ ê²°í•© ìš”ì†Œ
      */
     static final int MAX = 1001;
     static ArrayList<Integer>[] arr = new ArrayList[MAX];
@@ -37,9 +37,9 @@ public class SCC {
         for (int i = 1; i <= num; i++) {
             if (visited[i] == 0) dfs(i);
         }
-        System.out.printf("SCCÀÇ °¹¼ö : %d\n", SCC.size());
+        System.out.printf("SCCì˜ ê°¯ìˆ˜ : %d\n", SCC.size());
         for (int i = 0; i < SCC.size(); i++) {
-            System.out.printf("%d¹øÂ° SCC : ", i + 1);
+            System.out.printf("%dë²ˆì§¸ SCC : ", i + 1);
             for (int k = 0; k < SCC.get(i).size(); k++) {
                 System.out.printf("%d ", SCC.get(i).get(k));
             }
@@ -48,19 +48,19 @@ public class SCC {
     }
 
     static int dfs(int x) {
-        visited[x] = ++id; // ³ëµå¸¶´Ù °íÀ¯ÇÑ ¹øÈ£¸¦ ÇÒ´ç
-        stack.add(x); // ½ºÅÃ¿¡ ÀÚ±â ÀÚ½ÅÀ» »ğÀÔ
+        visited[x] = ++id; // ë…¸ë“œë§ˆë‹¤ ê³ ìœ í•œ ë²ˆí˜¸ë¥¼ í• ë‹¹
+        stack.add(x); // ìŠ¤íƒì— ìê¸° ìì‹ ì„ ì‚½ì…
 
         int parent = visited[x];
         for (int i = 0; i < arr[x].size(); i++) {
             int y = arr[x].get(i);
-            // ¹æ¹®ÇÏÁö ¾ÊÀº ÀÌ¿ô
+            // ë°©ë¬¸í•˜ì§€ ì•Šì€ ì´ì›ƒ
             if (visited[y] == 0) parent = Math.min(parent, dfs(y));
-            // Ã³¸®ÁßÀÎ ÀÌ¿ô
+            // ì²˜ë¦¬ì¤‘ì¸ ì´ì›ƒ
             else if (!finished[y]) parent = Math.min(parent, visited[y]);
         }
 
-        // ºÎ¸ğ³ëµå°¡ ÀÚ±â ÀÚ½ÅÀÎ °æ¿ì
+        // ë¶€ëª¨ë…¸ë“œê°€ ìê¸° ìì‹ ì¸ ê²½ìš°
         if (parent == visited[x]) {
             List<Integer> scc = new ArrayList<>();
             while (true) {
@@ -72,7 +72,7 @@ public class SCC {
             SCC.add(scc);
         }
 
-        // ÀÚ½ÅÀÇ ºÎ¸ğ °ªÀ» ¹İÈ¯ ÇÕ´Ï´Ù.
+        // ìì‹ ì˜ ë¶€ëª¨ ê°’ì„ ë°˜í™˜ í•©ë‹ˆë‹¤.
         return parent;
     }
 }
