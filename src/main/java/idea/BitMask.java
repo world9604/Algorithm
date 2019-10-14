@@ -60,7 +60,7 @@ public class BitMask {
         // 2진수 형태로 출력하기
         void show() {
             for (int i = 32; i > 0; i--) {
-                if ((num & (1 << i - 1)) >= 1)
+                if ((num & (1 << i - 1)) > 0)
                     System.out.print("1");
                 else
                     System.out.print("0");
@@ -94,10 +94,7 @@ public class BitMask {
 
         // 특정 원소의 포함 여부를 확인하기
         boolean isSet(int i) {
-            if ((num & (1<<i)) > 1)
-                return true;
-            else
-                return false;
+            return (num & (1 << i)) > 1;
         }
 
         // 마지막 원소 구하기
