@@ -2,7 +2,8 @@ package idea;
 
 public class Recursion1 {
     public static void main(String[] args) {
-        func(4);
+//        System.out.printf("%d", fibonacci2(10000, 1, 0));
+        System.out.printf("%d", fibonacci(10000));
     }
 
     public static void func(int k) {
@@ -28,6 +29,14 @@ public class Recursion1 {
             return n;
         else
             return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+
+    // 피보나치 수열 계산2
+    public static int fibonacci2(int n, int previousNum, int previousPreviousNum) {
+        if (n < 2)  return n * previousNum;
+        return fibonacci2(n - 1,
+                previousNum + previousPreviousNum,
+                previousNum);
     }
 
     // 최대공약수 (유클리드 메소드)
