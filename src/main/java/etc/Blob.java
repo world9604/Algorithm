@@ -1,4 +1,4 @@
-package idea;
+package etc;
 
 public class Blob {
     /**

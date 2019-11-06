@@ -1,4 +1,4 @@
-package idea;
+package etc;
 
 public class Recursion1 {
     public static void main(String[] args) {

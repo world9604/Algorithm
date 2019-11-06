@@ -1,4 +1,4 @@
-package idea;
+package etc;
 
 import java.util.Scanner;
 
