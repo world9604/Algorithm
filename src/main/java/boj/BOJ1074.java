@@ -12,7 +12,7 @@ public class BOJ1074 {
         int N = sc.nextInt();
         int r = sc.nextInt();
         int c = sc.nextInt();
-        new SplitConquester(r, c).solve((int)Math.pow(2, N), 0, 0);
+        new SplitConquester(r, c).solve((int) Math.pow(2, N), 0, 0);
     }
 }
 
