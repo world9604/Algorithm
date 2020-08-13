@@ -2,7 +2,7 @@ package test;
 
 
 public class DijkstraTest {
-    static final int INF = 100000000;
+    static final int INF = Integer.MAX_VALUE;
     static final int num = 5;
 
     public static void main(String[] args) {
@@ -20,21 +20,18 @@ public class DijkstraTest {
         };
 
         new ShortestPathFinder(completed, shortestDistance, edge, num, INF).dijkstra(0);
+
         for (int i = 0; i < num; i++) {
             System.out.printf("%d ", shortestDistance[i]);
         }
     }
 }
 
-
 class ShortestPathFinder{
     private int min;
     private int num;
-    // 방문한 노드 입니다.
     private boolean[] completed;
-    // 결과 최소 거리 배열 입니다.
     private int[] shortestDistance;
-    // 전체 그래프를 초기화 합니다.
     private int[][] edge;
 
     ShortestPathFinder(boolean[] completed, int[] shortestDistance, int[][] edge, int num, int min){
@@ -57,7 +54,7 @@ class ShortestPathFinder{
         return index;
     }
 
-    void dijkstra(int start) {
+    public void dijkstra(int start) {
         for (int i = 0; i < num; i++)
             shortestDistance[i] = edge[start][i];
 

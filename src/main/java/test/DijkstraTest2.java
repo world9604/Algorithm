@@ -1,11 +1,9 @@
-package idea;
+package test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
 
-public class ShortestPathProblem {
+import java.util.*;
+
+public class DijkstraTest2 {
     public static void main(String[] args) {
         int nodeNum = 5;
         List<int[]>[] edge = new ArrayList[nodeNum + 1];
@@ -36,12 +34,11 @@ public class ShortestPathProblem {
         edge[5].add(new int[]{4, 2});
         edge[5].add(new int[]{5, 0});
 
-        new DijkstraByHeap(edge, nodeNum).start(1);
+        new DijkstraByHeap2(edge, nodeNum).start(1);
     }
 }
 
-
-class DijkstraByHeap {
+class DijkstraByHeap2 {
     // 엣지 정보 입니다.
     private List<int[]>[] edge;
     // 결과로 출력할 최소 거리 배열 입니다.
@@ -51,7 +48,7 @@ class DijkstraByHeap {
     // 정수형 최대값으로 무한값을 대체 합니다.
     private final int INF = Integer.MAX_VALUE;
 
-    DijkstraByHeap(List<int[]>[] edge, int nodeNum) {
+    DijkstraByHeap2(List<int[]>[] edge, int nodeNum) {
         this.edge = edge;
         this.nodeNum = nodeNum;
         this.shortestDistance = new int[nodeNum + 1];
@@ -63,8 +60,7 @@ class DijkstraByHeap {
     void start(int start) {
         shortestDistance[start] = 0;
 
-        // PriorityQueue 는 최소 힙 구조 입니다.(heapify 시간 복잡도 : O(logN))
-        // 거리값이 가장 적은 노드를 출력 하기 위해 최소힙을 사용 합니다.
+        // PriorityQueue 는 최소 힙 구조 입니다.
         Queue<int[]> priorityQueue = new PriorityQueue<>((o1, o2) -> o1[1] - o2[1]);
         priorityQueue.add(new int[]{start, 0});
 
@@ -81,12 +77,10 @@ class DijkstraByHeap {
             for (int i = 0; i < edge[current].size(); i++) {
                 // 선택된 노드의 인접 노드
                 int next = edge[current].get(i)[0];
-
                 // 선택된 노드를 인접 노드로 거쳐서 가는 비용
                 // 시작노드 부터 선택된노드(current) 까지의 최단 거리 : distance
                 // 선택된노드(current) 부터 인접노드(i) 까지 거리 : edge[current].get(i)[1
                 int nextDistance = distance + edge[current].get(i)[1];
-
                 // 기존의 최소 비용보다 더 저렴하다면 교체 합니다.
                 if (nextDistance < shortestDistance[next]) {
                     shortestDistance[next] = nextDistance;
@@ -95,7 +89,6 @@ class DijkstraByHeap {
             }
         }
 
-        // 최단 거리 출력 하기
         for (int i = 1; i <= nodeNum; i++) {
             System.out.printf("%d ", shortestDistance[i]);
         }

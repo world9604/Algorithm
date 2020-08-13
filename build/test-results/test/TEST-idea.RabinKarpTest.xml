@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="idea.RabinKarpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-26T10:04:53" hostname="DESKTOP-91OQ4U5" time="0.006">
+  <properties/>
+  <testcase name="solve" classname="idea.RabinKarpTest" time="0.006"/>
+  <system-out><![CDATA[7번째에서 발견했습니다.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
