@@ -32,7 +32,7 @@ public class BinaryTree {
 }
 
 class BinaryTreeTraversaler{
-
+    // 전위 순회
     public void preOrder(Node node){
         System.out.printf("%s -> ", node.getData());
         if(node.getLeftNode() != null)
@@ -40,6 +40,8 @@ class BinaryTreeTraversaler{
         if(node.getRightNode() != null)
             preOrder(node.getRightNode());
     }
+
+    // 중위 순회
     public void inOrder(Node node){
         if(node.getLeftNode() != null)
             inOrder(node.getLeftNode());
@@ -48,6 +50,7 @@ class BinaryTreeTraversaler{
             inOrder(node.getRightNode());
     }
 
+    // 후위 순회
     public void postOrder(Node node){
         if(node.getLeftNode() != null)
             postOrder(node.getLeftNode());
