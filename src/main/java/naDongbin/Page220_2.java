@@ -19,10 +19,15 @@ public class Page220_2 {
         //1. 짝수 열씩의 총합
         //2. 홀수 열씩의 총합
         // 둘 총합 중의 더 큰 값 출력
-        for (int i = 0; i < array.length; i++) {
-            if ((i-1 < 0) || (i-2 < 0)) continue;
-            array[i] = Math.max(array[i - 1], array[i - 2] + array[i]);
+        // 앞서 계산된 결과를 저장하기 위한 DP 테이블 초기화
+        int[] dp = new int[100];
+
+        // 다이나믹 프로그래밍(DP 보텀업)
+        dp[0] = array[0];
+        dp[1] = Math.max(array[0], array[1]);
+        for (int i = 2; i < N; i++) {
+            dp[i] = Math.max(dp[i - 1], dp[i - 2] + array[i]);
         }
-        return array[N-1];
+        return dp[N - 1];
     }
 }

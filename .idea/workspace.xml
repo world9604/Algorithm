@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/idea/BinarySearch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idea/BinaryTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idea/RabinKarpProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page118_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page149.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page149_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page152_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page182.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page182_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page201.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page201_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kakao/LyricsSearchProblem2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/idea/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/idea/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/idea/BinaryTreeTraversaler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/idea/BinaryTreeTraversaler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/idea/RabinKarp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/idea/RabinKarp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/idea/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/boj/BOJ1305Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/boj/BOJ1305Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/idea/RabinKarpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/idea/RabinKarpTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/idea.RabinKarpTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/idea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-idea.RabinKarpTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idea/RabinKarp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/boj/BOJ1305Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/boj/BOJ1305Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/idea/RabinKarpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/idea/RabinKarpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,26 +27,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -255,7 +186,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -437,9 +368,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3378016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3378016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,9 +394,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
-      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.35120642" />
+      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.31903484" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.63538873" />
-      <window_info active="true" anchor="right" id="Run" order="12" sideWeight="0.3572621" visible="true" weight="0.36461127" />
+      <window_info anchor="right" id="Run" order="12" sideWeight="0.3572621" weight="0.36461127" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.6427379" side_tool="true" weight="0.79289544" />
     </layout>
     <layout-to-restore>
@@ -594,6 +524,12 @@
           <line>89</line>
           <properties />
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1152,17 +1088,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="144">
+          <caret line="21" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="252">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
