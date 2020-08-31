@@ -11,15 +11,12 @@ public class BOJ1305Test {
 
     @Before
     public void setUp() throws Exception {
-        solution = new SplitConquester();
+        solution = new SplitConquester(5, 5);
     }
 
     @Test
     public void solution() {
-        int length = solution.solve(6, "aabaaa");
-        assertThat(length, is(4));
-
-        int length2 = solution.solve(5, "aaaaa");
-        assertThat(length2, is(1));
+        solution.solve(6, 4, 5);
+        solution.solve(5, 4, 5);
     }
 }

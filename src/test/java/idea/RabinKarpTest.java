@@ -10,11 +10,11 @@ import static org.junit.Assert.*;
 
 public class RabinKarpTest {
 
-    private Soloution soloution;
+    private RabinKarp soloution;
 
     @Before
     public void setUp() {
-        soloution = new Soloution();
+        soloution = new RabinKarp();
     }
 
     @Test
