@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page223.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page313.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page313_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page341.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page341_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page341_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page360.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -20,7 +13,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page220_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page220_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page323_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,11 +42,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="72">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -99,9 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/idea/ModTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/idea/Kruskal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/idea/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/RabinKarp.java" />
         <option value="$PROJECT_DIR$/src/main/java/idea/KMP.java" />
         <option value="$PROJECT_DIR$/src/main/java/idea/StringMatching.java" />
@@ -147,9 +158,12 @@
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page341_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page341.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page360.java" />
-        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323_4.java" />
       </list>
     </option>
   </component>
@@ -266,20 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Page323_2">
-    <configuration name="Page323" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naDongbin.Page323" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="naDongbin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Page323_6">
     <configuration name="Page323_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="naDongbin.Page323_2" />
       <module name="algorithm.main" />
@@ -306,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Page341_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naDongbin.Page341_3" />
+    <configuration name="Page323_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naDongbin.Page323_4" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -319,8 +320,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Page360" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naDongbin.Page360" />
+    <configuration name="Page323_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naDongbin.Page323_5" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="naDongbin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Page323_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naDongbin.Page323_6" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -333,19 +347,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Page341_3" />
-      <item itemvalue="Application.Page360" />
-      <item itemvalue="Application.Page323" />
       <item itemvalue="Application.Page323_2" />
       <item itemvalue="Application.Page323_3" />
+      <item itemvalue="Application.Page323_4" />
+      <item itemvalue="Application.Page323_5" />
+      <item itemvalue="Application.Page323_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Page323_6" />
+        <item itemvalue="Application.Page323_5" />
+        <item itemvalue="Application.Page323_4" />
         <item itemvalue="Application.Page323_3" />
         <item itemvalue="Application.Page323_2" />
-        <item itemvalue="Application.Page323" />
-        <item itemvalue="Application.Page360" />
-        <item itemvalue="Application.Page341_3" />
       </list>
     </recent_temporary>
   </component>
@@ -406,9 +420,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37533513" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37533513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,9 +446,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" />
-      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.04691689" />
+      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.15884718" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.63538873" />
-      <window_info anchor="right" id="Run" order="12" sideWeight="0.3572621" weight="0.5053619" />
+      <window_info anchor="right" id="Run" order="12" sideWeight="0.3572621" weight="0.46849865" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.6427379" side_tool="true" weight="0.79289544" />
     </layout>
     <layout-to-restore>
@@ -750,30 +763,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/idea/StringMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/boj/BOJ1074Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/idea/RabinKarpProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1095,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page341_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page341_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1148,13 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1962" column="18" selection-start-line="1962" selection-start-column="18" selection-end-line="1962" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1169,10 +1144,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page341_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1968" selection-start-line="1968" selection-end-line="1968" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="72">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page323_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

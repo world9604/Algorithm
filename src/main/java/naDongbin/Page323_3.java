@@ -33,10 +33,6 @@ public class Page323_3 {
                     // 다른 문자열이 나왔다면(더 이상 압축하지 못하는 경우라면)
                 else {
                     compressed += (cnt >= 2)? cnt + prev : prev;
-                    sub = "";
-                    for (int k = j; k < j + step; k++) {
-                        if (k < s.length()) sub += s.charAt(k);
-                    }
                     prev = sub; // 다시 상태 초기화
                     cnt = 1;
                 }
