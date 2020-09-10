@@ -1,9 +1,6 @@
 package naDongbin;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Page355 {
 
@@ -21,8 +18,8 @@ public class Page355 {
     int[][] board;
     int n;
     public int solution(int[][] board) {
-        this.board = board;
         this.n = board.length - 1;
+        this.board = board;
 
         // 시간을 계산하는 변수 정의
         Pos leftWing = new Pos(0, 0);
@@ -39,32 +36,18 @@ public class Page355 {
 
         while (!queue.isEmpty()) {
             RobotPos cur = queue.poll();
-            List<RobotPos> robots = new ArrayList();
+            Set<RobotPos> robots = new HashSet<>();
 
             // 상하좌우 탐색
             for (int i = 0; i < 4; i++) {
                 robots.add(goTo(i, cur));
             }
 
-            // 1번 시계 방향 회전 (왼쪽 날개 축)
-            RobotPos posByLeftAxis = rotateByLeftAxis90(cur);
-            robots.add(posByLeftAxis);
-            // 2번 시계 방향 회전 (왼쪽 날개 축)
-            RobotPos posByLeftAxis2 = rotateByLeftAxis90(posByLeftAxis);
-            robots.add(posByLeftAxis2);
-            // 3번 시계 방향 회전 (왼쪽 날개 축)
-            RobotPos posByLeftAxis3 = rotateByLeftAxis90(posByLeftAxis2);
-            robots.add(posByLeftAxis3);
-
-            // 1번 시계 방향 회전 (오른쪽 날개 축)
-            RobotPos posByRightAxis = rotateByRightAxis90(cur);
-            robots.add(posByRightAxis);
-            // 2번 시계 방향 회전 (오른쪽 날개 축)
-            RobotPos posByRightAxis2 = rotateByRightAxis90(posByRightAxis);
-            robots.add(posByRightAxis2);
-            // 3번 시계 방향 회전 (오른쪽 날개 축)
-            RobotPos posByRightAxis3 = rotateByRightAxis90(posByRightAxis2);
-            robots.add(posByRightAxis3);
+            // 회전 탐색
+            robots.addAll(verticalStateRotateToLeft(cur));
+            robots.addAll(verticalStateRotateToRight(cur));
+            robots.addAll(horizontalStateRotateToBottom(cur));
+            robots.addAll(horizontalStateRotateToTop(cur));
 
             for(RobotPos nextRobot : robots) {
                 if (canGoTo(nextRobot)) {
@@ -74,7 +57,6 @@ public class Page355 {
                 }
             }
         }
-
         return ERR_TIME;
     }
 
@@ -143,7 +125,7 @@ public class Page355 {
     // 오른쪽 날개 축으로 시계 방향 90도 회전하기
     // 따라서 오른쪽 날개의 좌표는 그대로
     public RobotPos rotateByRightAxis90(RobotPos robot) {
-        int[][] a = {{robot.leftWing.x,robot.leftWing.y}, {robot.rightWing.x, robot.rightWing.y}};
+        int[][] a = {{robot.leftWing.x, robot.leftWing.y}, {robot.rightWing.x, robot.rightWing.y}};
         int[][] result = new int[2][2]; // 결과 리스트
         for (int i = 0; i < 2; i++) {
             for (int j = 0; j < 2; j++) {
@@ -153,6 +135,92 @@ public class Page355 {
 
         return new RobotPos(new Pos(result[0][0], result[0][1]),
                 new Pos(robot.rightWing.x, robot.rightWing.y), robot.time + 1);
+    }
+
+    //1.로봇이 가로로 놓인 상태에서 아래쪽으로 회전하는 경우
+    public Set<RobotPos> horizontalStateRotateToBottom(RobotPos robot) {
+        Set<RobotPos> set = new HashSet();
+
+        if ((board[robot.leftWing.x + 1][robot.leftWing.y] == 1) ||
+            (board[robot.rightWing.x + 1][robot.rightWing.y] == 1))
+            return set;
+
+        // 왼쪽 날개 기준 축
+        RobotPos robotPos = new RobotPos(new Pos(robot.leftWing.x, robot.leftWing.y),
+                new Pos(robot.rightWing.x + 1, robot.rightWing.y - 1), robot.time + 1);
+
+        // 오른쪽 날개 기준 축
+        RobotPos robotPos2 = new RobotPos(new Pos(robot.leftWing.x + 1, robot.leftWing.y + 1),
+                new Pos(robot.rightWing.x, robot.rightWing.y), robot.time + 1);
+
+        set.add(robotPos);
+        set.add(robotPos2);
+        return set;
+    }
+
+    //2.로봇이 가로로 놓인 상태에서 위쪽으로 회전하는 경우
+    public Set<RobotPos> horizontalStateRotateToTop(RobotPos robot) {
+        Set<RobotPos> set = new HashSet();
+        if (robot.leftWing.x == 0 || robot.rightWing.x == 0) return set;
+
+        if ((board[robot.leftWing.x - 1][robot.leftWing.y] == 1) ||
+                (board[robot.rightWing.x - 1][robot.rightWing.y] == 1))
+            return set;
+
+        // 왼쪽 날개 기준 축
+        RobotPos robotPos = new RobotPos(new Pos(robot.leftWing.x, robot.leftWing.y),
+                new Pos(robot.rightWing.x - 1, robot.rightWing.y - 1), robot.time + 1);
+
+        // 오른쪽 날개 기준 축
+        RobotPos robotPos2 = new RobotPos(new Pos(robot.leftWing.x - 1, robot.leftWing.y + 1),
+                new Pos(robot.rightWing.x, robot.rightWing.y), robot.time + 1);
+
+        set.add(robotPos);
+        set.add(robotPos2);
+        return set;
+    }
+
+    //3.로봇이 세로로 놓인 상태에서 오른쪽으로 회전하는 경우
+    public Set<RobotPos> verticalStateRotateToRight(RobotPos robot) {
+        Set<RobotPos> set = new HashSet();
+
+        if ((board[robot.leftWing.x][robot.leftWing.y + 1] == 1) ||
+                (board[robot.rightWing.x][robot.rightWing.y + 1] == 1))
+            return set;
+
+        // 왼쪽 날개 기준 축
+        RobotPos robotPos = new RobotPos(new Pos(robot.leftWing.x, robot.leftWing.y),
+                new Pos(robot.rightWing.x - 1, robot.rightWing.y + 1), robot.time + 1);
+
+        // 오른쪽 날개 기준 축
+        RobotPos robotPos2 = new RobotPos(new Pos(robot.leftWing.x + 1, robot.leftWing.y + 1),
+                new Pos(robot.rightWing.x, robot.rightWing.y), robot.time + 1);
+
+        set.add(robotPos);
+        set.add(robotPos2);
+        return set;
+    }
+
+    //4.로봇이 세로로 놓인 상태에서 왼쪽으로 회전하는 경우
+    public Set<RobotPos> verticalStateRotateToLeft(RobotPos robot) {
+        Set<RobotPos> set = new HashSet();
+        if (robot.leftWing.y == 0 || robot.rightWing.y == 0) return set;
+
+        if ((board[robot.leftWing.x][robot.leftWing.y - 1] == 1) ||
+                (board[robot.rightWing.x][robot.rightWing.y - 1] == 1))
+            return set;
+
+        // 왼쪽 날개 기준 축
+        RobotPos robotPos = new RobotPos(new Pos(robot.leftWing.x, robot.leftWing.y),
+                new Pos(robot.rightWing.x - 1, robot.rightWing.y - 1), robot.time + 1);
+
+        // 오른쪽 날개 기준 축
+        RobotPos robotPos2 = new RobotPos(new Pos(robot.leftWing.x + 1, robot.leftWing.y - 1),
+                new Pos(robot.rightWing.x, robot.rightWing.y), robot.time + 1);
+
+        set.add(robotPos);
+        set.add(robotPos2);
+        return set;
     }
 
     // 로봇의 위치 Class 정의 (x, y), (x, y)
@@ -166,6 +234,21 @@ public class Page355 {
             this.rightWing = rightWing;
             this.time = time;
         }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            RobotPos robotPos = (RobotPos) o;
+            return time == robotPos.time &&
+                    Objects.equals(leftWing, robotPos.leftWing) &&
+                    Objects.equals(rightWing, robotPos.rightWing);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(leftWing, rightWing, time);
+        }
     }
 
     class Pos{
@@ -175,6 +258,20 @@ public class Page355 {
         Pos(int x, int y) {
             this.x = x;
             this.y = y;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Pos pos = (Pos) o;
+            return x == pos.x &&
+                    y == pos.y;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(x, y);
         }
     }
 }

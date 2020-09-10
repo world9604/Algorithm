@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page316_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page316_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page316_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page346.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page361.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page355_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -16,8 +11,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page316.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page325_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page325_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355$Pos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355$Pos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355$RobotPos.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355$RobotPos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page355.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page355.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page355.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,14 +40,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page355.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="65" column="55" lean-forward="true" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="82">
+              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page355_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -89,6 +92,7 @@
       <find>s :</find>
       <find>compStr</find>
       <find>foodIdx</find>
+      <find>hori</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\taein\IdeaProjects\Algorithm\src\main\java\etc</dir>
@@ -100,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/idea/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem.java" />
         <option value="$PROJECT_DIR$/src/test/java/kakao/LyricsSearchProblem2.java" />
@@ -151,14 +154,15 @@
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page361.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page325_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page355.java" />
+        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page355_2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="475" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +207,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,13 +228,6 @@
       <recent name="boj" />
       <recent name="idea" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="naDongbin" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="naDongbin" />
       <recent name="kakao" />
@@ -241,10 +238,18 @@
       <recent name="C:\Users\taein\IdeaProjects\Algorithm\src\main\java\test" />
       <recent name="C:\Users\taein\IdeaProjects\Algorithm\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="naDongbin" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="remove codecoverage" />
+      <command value="open DijkstraAlgorithm2" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -259,20 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Page355">
-    <configuration name="Page316_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naDongbin.Page316_2" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="naDongbin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Page355_2">
     <configuration name="Page316_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="naDongbin.Page316_3" />
       <module name="algorithm.main" />
@@ -312,6 +304,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Page355_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naDongbin.Page355_2" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="naDongbin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Page361" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="naDongbin.Page361" />
       <module name="algorithm.main" />
@@ -326,19 +331,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Page316_2" />
       <item itemvalue="Application.Page316_3" />
       <item itemvalue="Application.Page346" />
       <item itemvalue="Application.Page361" />
       <item itemvalue="Application.Page355" />
+      <item itemvalue="Application.Page355_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Page355_2" />
         <item itemvalue="Application.Page355" />
         <item itemvalue="Application.Page361" />
         <item itemvalue="Application.Page346" />
         <item itemvalue="Application.Page316_3" />
-        <item itemvalue="Application.Page316_2" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +405,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29758713" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2969169" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -425,9 +430,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32872927" />
-      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.424933" />
+      <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.40482575" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.36729223" />
-      <window_info anchor="right" id="Run" order="12" sideWeight="0.3572621" weight="0.43431637" />
+      <window_info anchor="right" id="Run" order="12" sideWeight="0.3572621" weight="0.44772118" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.6427379" side_tool="true" weight="0.79289544" />
     </layout>
     <layout-to-restore>
@@ -466,144 +471,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/boj/BOJ1074.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page355_2.java</url>
+          <line>77</line>
           <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/idea/SegmentTree.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/NhN/One.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/NhN/One.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/boj/BOJ1074_2.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="i == 6" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/idea/Kruskal.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/idea/Kruskal.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/idea/UnionFind.java</url>
-          <line>5</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem2.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem2.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page149.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page149.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page118_2.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page118_2.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page118_2.java</url>
-          <line>89</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page313.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page323.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="compLen == 1" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page323.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page316.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page316_2.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page316_3.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/naDongbin/Page346.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="90" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -719,6 +590,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>isOutVertical(robot)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>!isVisited(postion)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -758,32 +634,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>1 &lt;&lt; 4</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kakao/LyricsSearchProblem3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="117" column="11" lean-forward="true" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/BinarySearch3.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page201_2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1183,13 +1036,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="276" column="12" lean-forward="true" selection-start-line="276" selection-start-column="12" selection-end-line="276" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/istack/internal/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page355.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="65" column="55" lean-forward="true" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page355_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
