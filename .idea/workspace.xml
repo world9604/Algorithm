@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page329_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/boj/BOJ10825.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,40 +28,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37533513">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page329.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="202">
-                  <caret line="150" column="49" lean-forward="true" selection-start-line="150" selection-start-column="49" selection-end-line="150" selection-end-column="49" />
-                  <folding>
-                    <element signature="e#4384#4385#0" expanded="true" />
-                    <element signature="e#4445#4446#0" expanded="true" />
-                    <element signature="e#4487#4488#0" expanded="true" />
-                    <element signature="e#4522#4523#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page329_2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/naDongbin/BinarySearch3.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page201.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page201_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page149.java" />
@@ -160,14 +126,14 @@
         <option value="$PROJECT_DIR$/src/main/java/kakao/PillarAndBeamProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page329.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page329_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/boj/BOJ10825.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="980" />
-    <option name="height" value="950" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,22 +174,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kakao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naDongbin" type="462c0819:PsiDirectoryNode" />
+              <item name="boj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +237,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PillarAndBeamProblem">
+  <component name="RunManager" selected="Application.BOJ10825">
+    <configuration name="BOJ10825" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj.BOJ10825" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PillarAndBeamProblem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.PillarAndBeamProblem" />
       <extension name="coverage">
@@ -294,19 +265,6 @@
     </configuration>
     <configuration name="PillarAndBeamProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.PillarAndBeamProblem" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kakao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao.test" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -345,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.test2" />
       <item itemvalue="Application.test3" />
       <item itemvalue="Application.PillarAndBeamProblem" />
       <item itemvalue="Application.PillarAndBeamProblem (1)" />
+      <item itemvalue="Application.BOJ10825" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ10825" />
         <item itemvalue="Application.PillarAndBeamProblem (1)" />
         <item itemvalue="Application.PillarAndBeamProblem" />
         <item itemvalue="Application.test3" />
         <item itemvalue="Application.test2" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +377,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.384509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38404825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,7 +404,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32872927" />
       <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.40817696" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.36729223" />
-      <window_info anchor="right" id="Run" order="12" sideWeight="0.35559267" weight="0.2841823" />
+      <window_info anchor="right" id="Run" order="12" sideWeight="0.35559267" weight="0.15767635" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.64440733" side_tool="true" weight="0.2419571" />
     </layout>
     <layout-to-restore>
@@ -724,13 +682,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page220.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page223.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -1121,10 +1072,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page329_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page329.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="150" column="49" lean-forward="true" selection-start-line="150" selection-start-column="49" selection-end-line="150" selection-end-column="49" />
+          <caret line="150" column="49" selection-start-line="150" selection-start-column="49" selection-end-line="150" selection-end-column="49" />
           <folding>
             <element signature="e#4384#4385#0" expanded="true" />
             <element signature="e#4445#4446#0" expanded="true" />
@@ -1134,10 +1092,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page329_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/boj/BOJ10825.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
