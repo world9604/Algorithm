@@ -1,7 +1,6 @@
 package Woahan;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Task2020_2_2 {
     public static void main(String[] args) {
@@ -10,6 +9,7 @@ public class Task2020_2_2 {
                 "not3.txt 5b\n" +
                 "video.mp4 200b\n" +
                 "game.exe 100b\n" +
+                "game.txt 100b\n" +
                 "mov!e.mkv 10000b";
         System.out.print(new Task2020_2_2().solution(input));
     }
@@ -33,12 +33,7 @@ public class Task2020_2_2 {
     5. 해당 라인의 용량을 저장
     6. 출력 포맷의 맞게 출력
     */
-    FileSizes fileSizeList;
-
     public String solution(String S) {
-        // 4. 4가지 타입 중 하나로 분류
-        this.fileSizeList = new FileSizes();
-
         // 각 라인을 분리
         String[] rows = S.split("\n");
 
@@ -52,9 +47,11 @@ public class Task2020_2_2 {
             // 3. dot 뒤의 문자열을 파일 타입으로 정의
             for (int i = fileFullName.length() - 1; i >= 0; i--) {
                 if (fileFullName.charAt(i) == '.') {
-                    String fileType = fileFullName.substring(i + 1);
+                    String fileTypeStr = fileFullName.substring(i + 1);
                     // 4. 4가지 타입 중 하나로 분류
-                    insertFileType(fileType, size);
+                    FileType fileType = FileType.convertStrToFileType(fileTypeStr);
+                    FileTypeGroup fileTypeGroup = FileTypeGroup.findByFileType(fileType);
+                    fileTypeGroup.addSize(size);
                     break;
                 }
             }
@@ -63,9 +60,9 @@ public class Task2020_2_2 {
         StringBuilder sb = new StringBuilder();
 
         // 5. 해당 라인의 용량을 저장
-        for (FileType value : FileType.values()) {
-            String type = value.name;
-            int size = fileSizeList.getSumSize(value);
+        for (FileTypeGroup value : FileTypeGroup.values()) {
+            String type = value.title;
+            int size = value.getTotal();
             // 6. 출력 포맷의 맞게 출력
             sb.append(type).append(" ").append(size).append("b");
             sb.append(System.lineSeparator());
@@ -74,89 +71,61 @@ public class Task2020_2_2 {
         return sb.toString();
     }
 
-    public void insertFileType(String fileType, int size) {
-        switch (fileType) {
-            //music
-            case "mp3" :
-            case "aac" :
-            case "flac" : {
-                this.fileSizeList.musicSizes.add(size);
-                return;
-            }
-            //image
-            case "jpg" :
-            case "bmp" :
-            case "gif" : {
-                this.fileSizeList.imageSizes.add(size);
-                return;
-            }
-            //movie
-            case "mp4" :
-            case "avi" :
-            case "mkv" : {
-                this.fileSizeList.movieSizes.add(size);
-                return;
-            }
-            //other
-            default : {
-                this.fileSizeList.otherSizes.add(size);
-                return;
-            }
-        }
-    }
+    enum FileTypeGroup {
+        MUSIC("music", Arrays.asList(FileType.MP3, FileType.AAC, FileType.FLAC)),
+        IMAGE("images", Arrays.asList(FileType.JPG, FileType.BMP, FileType.GIF)),
+        MOVIE("movies", Arrays.asList(FileType.MP4, FileType.AVI, FileType.MKV)),
+        TEXT("text", Arrays.asList(FileType.TXT)),
+        OTHER("other", Arrays.asList(FileType.OTHER));
 
-    class FileSizes {
-        List<Integer> musicSizes;
-        List<Integer> imageSizes;
-        List<Integer> movieSizes;
-        List<Integer> otherSizes;
+        String title;
+        List<FileType> fileTypes;
+        int total;
 
-        public FileSizes() {
-            this.musicSizes = new ArrayList<>();
-            this.imageSizes = new ArrayList<>();
-            this.movieSizes = new ArrayList<>();
-            this.otherSizes = new ArrayList<>();
+        FileTypeGroup(String title, List<FileType> fileTypes) {
+            this.title = title;
+            this.fileTypes = fileTypes;
         }
 
-        int getSumSize(FileType fileType){
-            int sum = 0;
-
-            if (fileType == FileType.MUSIC) {
-                sum = getSumFrom(musicSizes);
-            }
-
-            if (fileType == FileType.IMAGE) {
-                sum = getSumFrom(imageSizes);
-            }
-
-            if (fileType == FileType.MOVIE) {
-                sum = getSumFrom(imageSizes);
-            }
-
-            if (fileType == FileType.OTHER) {
-                sum = getSumFrom(otherSizes);
-            }
-
-            return sum;
+        void addSize(int size) {
+            this.total += size;
         }
 
-        private int getSumFrom(List<Integer> list) {
-            int sum = 0;
-            for (Integer val : list) {
-                sum += val;
-            }
-            return sum;
+        int getTotal() {
+            return total;
+        }
+
+        public static FileTypeGroup findByFileType(FileType fileType){
+            return Arrays.stream(FileTypeGroup.values())
+                    .filter(FileTypeGroup -> FileTypeGroup.hasFileType(fileType))
+                    .findAny()
+                    .orElse(OTHER);
+        }
+
+        public boolean hasFileType(FileType fileType) {
+            return  fileTypes.stream()
+                    .anyMatch(elem -> elem == fileType);
         }
     }
 
     enum FileType {
-        MUSIC("music"), IMAGE("images"),
-        MOVIE("movies"), OTHER("other");
+        MP3("mp3"), AAC("aac"), FLAC("flac"),
+        JPG("jpg"), BMP("bmp"), GIF("gif"),
+        MP4("mp4"), AVI("avi"), MKV("mkv"),
+        TXT("txt"),
+        OTHER("other");
 
-        String name;
+        String title;
 
-        FileType(String name) {
-            this.name = name;
+        FileType(String title) {
+            this.title = title;
+        }
+
+        public static FileType convertStrToFileType(String title) {
+            return  Arrays.stream(FileType.values())
+                    .filter(elem -> elem.title.equals(title))
+                    .findAny()
+                    .orElse(OTHER);
         }
     }
 }

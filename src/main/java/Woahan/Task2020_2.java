@@ -1,6 +1,7 @@
 package Woahan;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Task2020_2 {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class Task2020_2 {
                 "not3.txt 5b\n" +
                 "video.mp4 200b\n" +
                 "game.exe 100b\n" +
+                "game.txt 100b\n" +
                 "mov!e.mkv 10000b";
         System.out.print(new Task2020_2().solution(input));
     }
@@ -32,18 +34,11 @@ public class Task2020_2 {
     5. 해당 라인의 용량을 저장
     6. 출력 포맷의 맞게 출력
     */
-    Music music;
-    Images image;
-    Movies movie;
-    Other other;
+    FileSizeGroup fileSizeGroup;
 
     public String solution(String S) {
         // 4. 4가지 타입 중 하나로 분류
-        this.music = new Music();
-        this.image = new Images();
-        this.movie = new Movies();
-        this.other = new Other();
-        FileType[] fileList = {music, image, movie, other};
+        this.fileSizeGroup = new FileSizeGroup();
 
         // 각 라인을 분리
         String[] rows = S.split("\n");
@@ -59,11 +54,8 @@ public class Task2020_2 {
             for (int i = fileFullName.length() - 1; i >= 0; i--) {
                 if (fileFullName.charAt(i) == '.') {
                     String fileType = fileFullName.substring(i + 1);
-                    /*System.out.println(fileSizeList);
-                    System.out.println(size);
-                    System.out.println();*/
                     // 4. 4가지 타입 중 하나로 분류
-                    insertFileTypeFactory(fileType, size);
+                    insertFileSizeToFileGroup(fileType, size);
                     break;
                 }
             }
@@ -72,9 +64,9 @@ public class Task2020_2 {
         StringBuilder sb = new StringBuilder();
 
         // 5. 해당 라인의 용량을 저장
-        for (FileType file : fileList) {
-            String type = file.getType();
-            int size = file.getSize();
+        for (FileType value : FileType.values()) {
+            String type = value.name;
+            int size = fileSizeGroup.getSumSize(value);
             // 6. 출력 포맷의 맞게 출력
             sb.append(type).append(" ").append(size).append("b");
             sb.append(System.lineSeparator());
@@ -83,157 +75,96 @@ public class Task2020_2 {
         return sb.toString();
     }
 
-    public void insertFileTypeFactory(String fileType, int size) {
+    public void insertFileSizeToFileGroup(String fileType, int size) {
         switch (fileType) {
             //music
             case "mp3" :
             case "aac" :
             case "flac" : {
-                this.music.addSize(size);
+                this.fileSizeGroup.musicSizes.add(size);
                 return;
             }
             //image
             case "jpg" :
             case "bmp" :
             case "gif" : {
-                this.image.addSize(size);
+                this.fileSizeGroup.imageSizes.add(size);
                 return;
             }
             //movie
             case "mp4" :
             case "avi" :
             case "mkv" : {
-                this.movie.addSize(size);
+                this.fileSizeGroup.movieSizes.add(size);
+                return;
+            }
+            //movie
+            case "txt" : {
+                this.fileSizeGroup.textSizes.add(size);
                 return;
             }
             //other
             default : {
-                this.other.addSize(size);
+                this.fileSizeGroup.otherSizes.add(size);
                 return;
             }
         }
     }
 
-    interface FileType {
-        String getType();
-        int getSize();
-        void addSize(String type, int size);
-    }
+    class FileSizeGroup {
+        List<Integer> musicSizes;
+        List<Integer> imageSizes;
+        List<Integer> movieSizes;
+        List<Integer> textSizes;
+        List<Integer> otherSizes;
 
-    class Music implements FileType {
-        Set<String> extensions = new HashSet();
-        List<Integer> sizes;
-
-        public Music() {
-            this.sizes = new ArrayList<>();
-            this.extensions.addAll(Arrays.asList(new String[]{"mp3", "aac", "flac"}));
+        public FileSizeGroup() {
+            this.musicSizes = new ArrayList<>();
+            this.imageSizes = new ArrayList<>();
+            this.movieSizes = new ArrayList<>();
+            this.textSizes = new ArrayList<>();
+            this.otherSizes = new ArrayList<>();
         }
 
-        @Override
-        public String getType() {
-            return "music";
-        }
-
-        @Override
-        public int getSize() {
+        int getSumSize(FileType fileType){
             int sum = 0;
-            for (Integer size : this.sizes) {
-                sum += size;
-            }
+
+            if (fileType == FileType.MUSIC)
+                sum = getSumFrom(musicSizes);
+
+            if (fileType == FileType.IMAGE)
+                sum = getSumFrom(imageSizes);
+
+            if (fileType == FileType.MOVIE)
+                sum = getSumFrom(imageSizes);
+
+            if (fileType == FileType.TEXT)
+                sum = getSumFrom(textSizes);
+
+            if (fileType == FileType.OTHER)
+                sum = getSumFrom(otherSizes);
+
             return sum;
         }
 
-        private boolean isRightType(String type) {
-            return extensions.contains(type);
-        }
-
-        @Override
-        public void addSize(String type, int size) {
-            if (isRightType(type))
-                this.sizes.add(size);
-        }
-    }
-
-    class Images implements FileType {
-        String[] extensions = {"jpg", "bmp", "gif"};
-        List<Integer> sizes;
-
-        public Images() {
-            this.sizes = new ArrayList<>();
-        }
-
-        @Override
-        public String getType() {
-            return "images";
-        }
-
-        @Override
-        public int getSize() {
+        private int getSumFrom(List<Integer> list) {
             int sum = 0;
-            for (Integer size : this.sizes) {
-                sum += size;
+            for (Integer val : list) {
+                sum += val;
             }
             return sum;
         }
-
-        @Override
-        public void addSize(int size) {
-            this.sizes.add(size);
-        }
     }
 
-    class Movies implements FileType {
-        String[] extensions = {"mkv", "mp4", "avi"};
-        List<Integer> sizes;
+    enum FileType {
+        MUSIC("music"), IMAGE("images"),
+        MOVIE("movies"), TEXT("text"),
+        OTHER("other");
 
-        public Movies() {
-            this.sizes = new ArrayList<>();
-        }
+        String name;
 
-        @Override
-        public String getType() {
-            return "movies";
-        }
-
-        @Override
-        public int getSize() {
-            int sum = 0;
-            for (Integer size : this.sizes) {
-                sum += size;
-            }
-            return sum;
-        }
-
-        @Override
-        public void addSize(int size) {
-            this.sizes.add(size);
-        }
-    }
-
-    class Other implements FileType {
-        List<Integer> sizes;
-
-        public Other() {
-            this.sizes = new ArrayList<>();
-        }
-
-        @Override
-        public String getType() {
-            return "other";
-        }
-
-        @Override
-        public int getSize() {
-            int sum = 0;
-            for (Integer size : this.sizes) {
-                sum += size;
-            }
-            return sum;
-        }
-
-        @Override
-        public void addSize(int size) {
-            this.sizes.add(size);
+        FileType(String name) {
+            this.name = name;
         }
     }
 }

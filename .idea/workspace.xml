@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -15,8 +10,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/boj/BOJ2110$House.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/boj/BOJ2110$House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/boj/BOJ2110.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/boj/BOJ2110.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2$File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2$Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2$Movies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2$Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2$Other.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2_2$FileSizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2_2$FileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2_2$FileType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Woahan/Task2020_2_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,17 +46,45 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6575067">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#3841#3842#0" expanded="true" />
+                    <element signature="e#3883#3884#0" expanded="true" />
+                    <element signature="e#3917#3918#0" expanded="true" />
+                    <element signature="e#3953#3954#0" expanded="true" />
+                    <element signature="e#4723#4724#0" expanded="true" />
+                    <element signature="e#4765#4766#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +121,7 @@
       <find>hori</find>
       <find>un</find>
       <find>isoo</find>
+      <find>mp3</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\taein\IdeaProjects\Algorithm\src\main\java\etc</dir>
@@ -147,17 +181,17 @@
         <option value="$PROJECT_DIR$/src/main/java/boj/BOJ2110.java" />
         <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="402" />
-    <option name="y" value="-18" />
-    <option name="width" value="978" />
-    <option name="height" value="938" />
+    <option name="x" value="606" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,8 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +236,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,13 +257,6 @@
       <recent name="boj" />
       <recent name="idea" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="naDongbin" />
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Woahan" />
       <recent name="naDongbin" />
@@ -242,6 +269,13 @@
       <recent name="C:\Users\taein\IdeaProjects\Algorithm\src\main\java\kakao" />
       <recent name="C:\Users\taein\IdeaProjects\Algorithm\src\main\java\test" />
       <recent name="C:\Users\taein\IdeaProjects\Algorithm\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="naDongbin" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -262,20 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2020_2_2">
-    <configuration name="BOJ10825" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="boj.BOJ10825" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="boj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task2020_2">
     <configuration name="BOJ2110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.BOJ2110" />
       <module name="algorithm.main" />
@@ -315,6 +336,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2020_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Woahan.Task2020_2" />
+      <module name="algorithm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Woahan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task2020_2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Woahan.Task2020_2_2" />
       <module name="algorithm.main" />
@@ -329,19 +363,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BOJ10825" />
       <item itemvalue="Application.BOJ2110" />
       <item itemvalue="Application.Task2020_1" />
       <item itemvalue="Application.Task2020_2" />
+      <item itemvalue="Application.Task2020_2_2" />
       <item itemvalue="Application.Task2020_2_2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task2020_2_2" />
+        <item itemvalue="Application.Task2020_2_2" />
         <item itemvalue="Application.Task2020_2" />
         <item itemvalue="Application.Task2020_1" />
         <item itemvalue="Application.BOJ2110" />
-        <item itemvalue="Application.BOJ10825" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +437,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22587131" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,12 +578,6 @@
           <line>50</line>
           <properties />
           <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="162" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1076,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="348" column="18" selection-start-line="348" selection-start-column="18" selection-end-line="348" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/boj/BOJ2110.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1110,33 +1131,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2128">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="416">
+          <caret line="178" column="8" lean-forward="true" selection-start-line="178" selection-start-column="8" selection-end-line="181" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4122#4123#0" expanded="true" />
-            <element signature="e#4160#4161#0" expanded="true" />
+            <element signature="e#4480#4481#0" expanded="true" />
+            <element signature="e#4524#4525#0" expanded="true" />
+            <element signature="e#4979#4980#0" expanded="true" />
+            <element signature="e#5023#5024#0" expanded="true" />
+            <element signature="e#5422#5423#0" expanded="true" />
+            <element signature="e#5466#5467#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/StringTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="349" column="22" selection-start-line="349" selection-start-column="22" selection-end-line="349" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="240">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="e#3895#3896#0" expanded="true" />
-            <element signature="e#3944#3945#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Woahan/Task2020_2_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        <state relative-caret-position="96">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#3841#3842#0" expanded="true" />
+            <element signature="e#3883#3884#0" expanded="true" />
+            <element signature="e#3917#3918#0" expanded="true" />
+            <element signature="e#3953#3954#0" expanded="true" />
+            <element signature="e#4723#4724#0" expanded="true" />
+            <element signature="e#4765#4766#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
