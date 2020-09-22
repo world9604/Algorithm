@@ -1,6 +1,8 @@
 package naDongbin;
 
 public class Page312 {
+    // 곱하기 혹은 더하기
+    // page 312
     public static void main(String[] args) {
         String value = "02984";
         System.out.print(new Page312().solution(value));
