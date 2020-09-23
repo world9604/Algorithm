@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page311.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page311_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/idea/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page312.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/naDongbin/Page312.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page312.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page312.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/naDongbin/Page311_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page311_2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,7 +30,17 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/idea/PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page220.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page220_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page223.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page313.java" />
@@ -138,14 +139,15 @@
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page312.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page311.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page311_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/idea/PrimeNumber.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="947" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,15 +187,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naDongbin" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Page311">
+  <component name="RunManager" selected="Application.PrimeNumber">
     <configuration name="BOJ2110_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.BOJ2110_2" />
       <module name="algorithm.main" />
@@ -298,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2020_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Woahan.Task2020_2" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="idea.PrimeNumber" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Woahan.*" />
+          <option name="PATTERN" value="idea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,18 +332,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task2020_2" />
       <item itemvalue="Application.Task2020_2_2" />
       <item itemvalue="Application.BOJ2110_2" />
       <item itemvalue="Application.Page312" />
       <item itemvalue="Application.Page311" />
+      <item itemvalue="Application.PrimeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Page311" />
         <item itemvalue="Application.Page312" />
         <item itemvalue="Application.BOJ2110_2" />
-        <item itemvalue="Application.Task2020_2_2" />
         <item itemvalue="Application.Task2020_2_2" />
       </list>
     </recent_temporary>
@@ -411,6 +405,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1997319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -439,7 +434,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32872927" />
       <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.37131366" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.36729223" />
-      <window_info anchor="right" id="Run" order="12" sideWeight="0.35559267" weight="0.38337803" />
+      <window_info active="true" anchor="right" id="Run" order="12" sideWeight="0.35559267" visible="true" weight="0.38337803" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.64440733" side_tool="true" weight="0.2419571" />
     </layout>
     <layout-to-restore>
@@ -752,7 +747,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page31_3.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1160,8 +1154,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page311_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/idea/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
