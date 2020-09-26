@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2467080d-102b-4e2d-96a0-574560fafa84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/boj/BOJ18405.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page315.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/naDongbin/Page368.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/idea/Combination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page368.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/idea/Combination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="186">
+              <caret line="58" column="60" lean-forward="true" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -99,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page341_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page341.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page360.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page323.java" />
@@ -150,13 +140,14 @@
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page315.java" />
         <option value="$PROJECT_DIR$/src/main/java/boj/BOJ18405.java" />
         <option value="$PROJECT_DIR$/src/main/java/naDongbin/Page368.java" />
+        <option value="$PROJECT_DIR$/src/main/java/idea/Combination.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="1489" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1490" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,12 +187,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naDongbin" type="462c0819:PsiDirectoryNode" />
+              <item name="idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Page368">
+  <component name="RunManager" selected="Application.Combination2">
     <configuration name="BOJ18405" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="boj.BOJ18405" />
       <module name="algorithm.main" />
@@ -275,8 +266,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="idea.Eratosthenes" />
+    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="idea.Combination" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -288,12 +279,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Page314" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="naDongbin.Page314" />
+    <configuration name="Combination2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="idea.Combination2" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="naDongbin.*" />
+          <option name="PATTERN" value="idea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Eratosthenes" />
-      <item itemvalue="Application.Page314" />
       <item itemvalue="Application.Page315" />
       <item itemvalue="Application.BOJ18405" />
       <item itemvalue="Application.Page368" />
+      <item itemvalue="Application.Combination" />
+      <item itemvalue="Application.Combination2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Combination2" />
+        <item itemvalue="Application.Combination" />
         <item itemvalue="Application.Page368" />
         <item itemvalue="Application.BOJ18405" />
         <item itemvalue="Application.Page315" />
-        <item itemvalue="Application.Page314" />
-        <item itemvalue="Application.Eratosthenes" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +391,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="757" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="757" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19839142" />
@@ -430,7 +421,7 @@
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.32872927" />
       <window_info anchor="right" id="Debug" order="10" sideWeight="0.4985294" weight="0.363941" />
       <window_info anchor="right" id="Terminal" order="11" weight="0.36729223" />
-      <window_info active="true" anchor="right" id="Run" order="12" sideWeight="0.35559267" visible="true" weight="0.36193028" />
+      <window_info active="true" anchor="right" id="Run" order="12" sideWeight="0.35559267" visible="true" weight="0.46715817" />
       <window_info anchor="right" id="Coverage" order="13" sideWeight="0.64440733" side_tool="true" weight="0.2419571" />
     </layout>
     <layout-to-restore>
@@ -767,13 +758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page360.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -1156,8 +1140,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/naDongbin/Page368.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="216">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/idea/Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="58" column="60" lean-forward="true" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
         </state>
       </provider>
     </entry>
