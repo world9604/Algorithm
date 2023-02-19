@@ -1,5 +1,15 @@
 plugins {
-    id 'java'
+    id "application"
+}
+
+apply plugin : "java"
+
+ext {
+    javaMainClass = "boj.BOJ1021"
+}
+
+application {
+    mainClassName = javaMainClass
 }
 
 group 'com.taein'
