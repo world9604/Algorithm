@@ -2,14 +2,14 @@ plugins {
     id "application"
 }
 
-apply plugin : "java"
-
-ext {
-    javaMainClass = "boj.BOJ1021"
-}
+//apply plugin : "java"
 
 application {
-    mainClassName = javaMainClass
+    mainClassName = "boj.BOJ1021"
+}
+
+run {
+    standardInput = System.in
 }
 
 group 'com.taein'
@@ -17,9 +17,9 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-repositories {
+/repositories {
     mavenCentral()
-}
+}/
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'

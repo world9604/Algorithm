@@ -4,16 +4,13 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
 
-public class BOJ1021 {
+public class BOJ1021_2 {
 
     public static void main(String[] args) {
-        int result = 0;
-        int N = 0;
-        int M = 0;
-
         Scanner sc = new Scanner(System.in);
-        N = sc.nextInt();
-        M = sc.nextInt();
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int result = 0;
 
         Deque<Integer> deque = new ArrayDeque<>(N);
         for (int i = 0; i < N; i++) {
@@ -25,7 +22,6 @@ public class BOJ1021 {
         for (int i = 0; i < indices.length; i++) {
             indices[i] = sc.nextInt();
         }
-        sc.close();
 
         for (int i = 0; i < indices.length; i++) {
             int index = indices[i];
